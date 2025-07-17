@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Sweet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px 0;
+            width: 300px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit Sweet - {{ sweet['name'] }}</h1>
+
+    <form method="post">
+        <label for="name">Sweet Name:</label>
+        <input type="text" name="name" id="name" value="{{ sweet['name'] }}" required>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" value="{{ sweet['quantity'] }}" required>
+
+        <label for="price">Price:</label>
+        <input type="number" step="0.01" name="price" id="price" value="{{ sweet['price'] }}" required>
+
+        <!-- Include category (hidden) to prevent KeyError -->
+        <input type="hidden" name="category" value="{{ sweet['category'] }}">
+
+        <button type="submit">Update Sweet</button>
+    </form>
+
+    <a href="/">← Back to Inventory</a>
+</body>
+</html>

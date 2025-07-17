@@ -1,0 +1,69 @@
+{
+    "sweets": [
+        {
+            "id": 1001,
+            "name": "Kaju Katli",
+            "category": "Nut-Based",
+            "price": 50.0,
+            "quantity": 20,
+            "image_url": "https://recipes.timesofindia.com/thumb/55048826.cms?imgsize=392932&width=800&height=800"
+        },
+        {
+            "id": 1002,
+            "name": "Gulab Jamun",
+            "category": "Milk-Based",
+            "price": 20.0,
+            "quantity": 50,
+            "image_url": "https://th.bing.com/th/id/OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk?w=253&h=190&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1003,
+            "name": "Gajar Halwa",
+            "category": "Vegetable-Based",
+            "price": 100.0,
+            "quantity": 15,
+            "image_url": "https://th.bing.com/th/id/OIP.GpNAJnq3nKa3yaAiDhAL_QHaGX?w=169&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1004,
+            "name": "Dark Chocolate",
+            "category": "Chocolate",
+            "price": 80.0,
+            "quantity": 25,
+            "image_url": "https://th.bing.com/th/id/OIP.wcNSqd1rJPaXeWhQz_26ZgHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1005,
+            "name": "Rasgulla",
+            "category": "Milk-Based",
+            "price": 12.0,
+            "quantity": 40,
+            "image_url": "https://th.bing.com/th/id/OIP.1J374JsEd-GdlRDWulxhlAHaHa?w=156&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1006,
+            "name": "Badam Burfi",
+            "category": "Nut-Based",
+            "price": 40.0,
+            "quantity": 18,
+            "image_url": "https://th.bing.com/th/id/OIP.b-EBrE7Q_76KjRsp8xUKRAHaJ4?w=189&h=252&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1007,
+            "name": "Chocolate Cake",
+            "category": "Pastry",
+            "price": 120.0,
+            "quantity": 8,
+            "image_url": "https://th.bing.com/th/id/OIP.6py87G8IsJAaNare1w-opgHaHa?w=217&h=217&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        },
+        {
+            "id": 1008,
+            "name": "Jalebi",
+            "category": "Candy",
+            "price": 15.0,
+            "quantity": 35,
+            "image_url": "https://th.bing.com/th/id/OIP.6_AMDfjQM-tFWcY-qe-egQHaHa?w=176&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3"
+        }
+    ],
+    "next_id": 1011
+}
