@@ -14,6 +14,15 @@ A robust and user-friendly Python-based application for managing sweet shop inve
 - 🧪 TDD-friendly modular structure
 - 🧰 Clear separation of business logic and storage logic
 
+  
+ ## 📦 Project Modules
+
+- `sweet_shop_manager.py` – Core logic and data structure for managing sweets
+- `app.py` – Main entry point (if used as an app)
+- `CLI.py` – Optional command-line interface for managing items
+- `TDD.py` – Unit tests for validation
+- `data.json` – Stores inventory and sweet records persistently
+
 ---
 
 
